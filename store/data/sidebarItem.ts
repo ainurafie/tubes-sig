@@ -1,0 +1,103 @@
+export default [
+  {
+    isTitle: true,
+    name: "Menu",
+    url: "",
+    icon: "",
+    submenu: [],
+  },
+  {
+    isTitle: false,
+    name: "Dashboard",
+    url: "/",
+    icon: "home",
+    submenu: [],
+  },
+  {
+    isTitle: false,
+    name: "Form",
+    url: "/addService/general",
+    icon: "sidebar",
+    submenu: [],
+  },
+  {
+    isTitle: true,
+    name: "Form & Tables",
+    url: "",
+    icon: "",
+    submenu: [],
+  },
+  {
+    isTitle: false,
+    name: "Forms",
+    key: "forms",
+    icon: "sidebar",
+    submenu: [
+      {
+        isTitle: false,
+        name: "General",
+        url: "/form/general",
+        icon: "chevron-right",
+        submenu: [],
+      },
+    ],
+  },
+  {
+    isTitle: false,
+    name: "Table",
+    key: "table",
+    icon: "table",
+    submenu: [
+      {
+        isTitle: false,
+        name: "Datatable Clientside",
+        url: "/table/simple",
+        icon: "chevron-right",
+        submenu: [],
+      },
+      {
+        isTitle: false,
+        name: "Datatable Serverside",
+        url: "/table/datatable",
+        icon: "chevron-right",
+        submenu: [],
+      },
+    ],
+  },
+  {
+    isTitle: true,
+    name: "Pages",
+    url: "",
+    icon: "",
+    submenu: [],
+  },
+  {
+    isTitle: false,
+    name: "Page",
+    url: "",
+    icon: "sidebar",
+    submenu: [
+      {
+        isTitle: false,
+        name: "Login",
+        url: "/login",
+        icon: "chevron-right",
+        submenu: [],
+      },
+      {
+        isTitle: false,
+        name: "Register",
+        url: "/register",
+        icon: "chevron-right",
+        submenu: [],
+      },
+      {
+        isTitle: false,
+        name: "Profile",
+        url: "/profile",
+        icon: "chevron-right",
+        submenu: [],
+      },
+    ],
+  },
+];
